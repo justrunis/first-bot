@@ -8,6 +8,7 @@ import ScheduleCommand from "./commands/schedule.js";
 import ActivityStatusCommand from "./commands/activitystatus.js";
 
 config();
+
 const TOKEN = process.env.BOT_TOKEN;
 const CLIENT_ID = process.env.CLIENT_ID;
 const GUILD_ID = process.env.GUILD_ID;
